@@ -1,0 +1,9 @@
+Summary: The field accepts "future" year
+
+Steps to reproduce:
+1. Enter 24.10.3333 to the field
+2. Press "Посчитать"
+
+Expected result: The field shouldn't accept unreal "future" year
+
+Actual result: The field accepts unreal year

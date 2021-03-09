@@ -1,0 +1,9 @@
+Summary: The field accepts unreal year (0000) and the app shows the wrong age.
+
+Steps to reproduce:
+1. Enter 10.01.0000 to the field
+2. Press "Посчитать"
+
+Expected result: The age shouldn't be counted and the result should be "NaN лет"
+
+Actual result: The app shows the wrong result for age - "21 год" 

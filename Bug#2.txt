@@ -1,0 +1,12 @@
+Summary: The field accepts unreal date and month.
+
+Steps to reproduce:
+1. Enter 24.10.1989 to the field
+2. Change month to 88, date to 88.
+2. Press "Посчитать"
+
+Expected result: The field should accept only correct data:
+"date" - numbers from 0 to 31
+"month" - numbers from 0 to 12
+
+Actual result: The field accepts all double-digit numbers.
